@@ -163,4 +163,5 @@ class Commandes():
     
     @staticmethod
     def update_motor_speed(motor_speed_var):
+
         speed = float(motor_speed_var)
