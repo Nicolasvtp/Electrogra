@@ -11,7 +11,7 @@ from tkinter import messagebox, StringVar, OptionMenu, Entry, Button, Label, ttk
 import numpy as np
 import pandas as pd
 from scipy import integrate
-
+"test"
 # 4. Visualisation de données
 import matplotlib.pyplot as plt
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
@@ -642,3 +642,4 @@ if __name__ == "__main__": #permet de lancer le programme sans run les imports a
     on_command_mode_change()
     times, values_current, values_voltage, test_params = [], [], [], {}
     root.mainloop() #Boucle événementielle Tkinter
+
