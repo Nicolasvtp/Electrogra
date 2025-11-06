@@ -254,6 +254,6 @@ class ElectrograApp(InputFrame, GraphFrame, TableFrame): # Hérite de InputFrame
 # ----- BOUCLE PRINCIPALE (temporaire ici, à déplacer dans main.py) -----------
 if __name__ == "__main__":                                     # Point d’entrée si on exécute ce fichier directement
     app = ElectrograApp()                                      # Instancie l’app (crée root et construit l’UI)
-    print("ca tourne")                                         # Log console (debug)
+    print("ca tourne")
     app.root.mainloop()                                        # Lance la boucle évènementielle Tk (bloque jusqu’à fermeture)
     print("Fin de la simulation")                              # Log après fermeture de la fenêtre
