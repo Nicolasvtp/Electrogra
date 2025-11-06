@@ -2,7 +2,7 @@
 import random
 import time
 from datetime import datetime
-#test
+
 # 2. Interface graphique
 import tkinter as tk
 from tkinter import messagebox, StringVar, OptionMenu, Entry, Button, Label, ttk, filedialog, Scale
